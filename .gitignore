@@ -1,0 +1,6 @@
+/.runs/
+.terraform/
+*.tfstate*
+*.tfplan
+*.tfplan.*
+__pycache__/

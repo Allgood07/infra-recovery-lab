@@ -1,6 +1,6 @@
 .PHONY: verify wrong-volume
 verify:
-	@python3 verify.py
+	@node cli.ts
 
 wrong-volume:
-	@python3 verify.py --wrong-volume
+	@node cli.ts --wrong-volume
